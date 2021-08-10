@@ -1,0 +1,124 @@
+
+
+.formCointainer {
+    width: 75%;
+    margin: 20px auto;
+}
+.formCointainer form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inputField {
+    width:98%;
+    padding:12px 2px;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+.inputField:focus {
+    border: 1px solid #000;
+}
+
+.firstContainer ,.secondContainer , .thirdContainer , .fouthContainer ,.fithContainer{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.firstContainer , .secondContainer ,.thirdContainer , .fouthContainer{
+    margin-bottom: 15px;
+}
+
+.firstContainer div:first-child {
+    flex-basis: 38%;
+}
+
+.firstContainer div:nth-child(2) {
+    flex-basis: 38%;
+}
+
+.firstContainer div:nth-child(3){
+    flex-basis: 20%;
+}
+
+.secondContainer >div {
+    flex-basis: 23%;
+}
+
+.primarySubmit {
+    width: 100%;
+    padding: 14px 2px;
+    color: #fff;
+    font-size: 16px;
+    background-color: rgb(235, 43, 43);
+    border: 1px solid rgb(235, 43, 43);
+    transition: 0.8s;
+}
+
+.primarySubmit:hover{
+    color: rgb(235, 43, 43);
+    background-color:  #fff;
+    border: 1px solid rgb(235, 43, 43);
+}
+
+input[type="date"] {
+    padding: 9.5px 2px;
+}
+
+@media screen and (max-width: 992px) {
+    
+        .secondContainer >div {
+            flex-basis: 47%;
+            margin-bottom: 15px;
+        }
+    
+   }
+
+   input[type="date"] {
+    padding: 9.5px 0;
+    }
+
+   @media screen and (max-width: 600px) {
+    
+    .formCointainer {
+        width: 80%;
+      
+    }
+
+    input[type="date"] {
+        padding: 9.5px 1px;
+        }
+}
+
+    @media screen and (max-width: 400px) {
+    
+        .firstContainer div:first-child {
+            flex-basis: 100%;
+            margin-bottom: 15px;
+        }
+        
+        .firstContainer div:nth-child(2) {
+            flex-basis: 100%;
+            margin-bottom: 15px;
+        }
+        
+        .firstContainer div:nth-child(3){
+            flex-basis: 100%;
+        }
+        .secondContainer >div {
+            flex-basis: 100%;
+          
+        }
+
+     
+
+}
+
+

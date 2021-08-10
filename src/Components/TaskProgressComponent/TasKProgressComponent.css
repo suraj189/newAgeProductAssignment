@@ -1,0 +1,30 @@
+.actionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.actionContainer button {
+    cursor:pointer; 
+    color:#fff;
+    padding: 5px 7px ;
+    background-color: rgb(235, 43, 43);
+    border: 1px solid rgb(235, 43, 43);
+    transition: 0.8s;
+}
+
+.actionContainer button:hover {
+    color: rgb(235, 43, 43);
+    background-color:  #fff;
+    border: 1px solid rgb(235, 43, 43);
+}
+
+.actionContainer button {
+    flex-basis: 40%;
+}
+
+.h2 {
+    text-align: left;
+    margin: 20px 0;
+}

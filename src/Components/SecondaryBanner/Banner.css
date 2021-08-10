@@ -1,0 +1,43 @@
+.secondaryBanner {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.secondaryBannerImg {
+    width: 100%;
+    
+    height: 600px;
+    object-fit: cover;
+}
+
+.secondarybannerText {
+    width:50%;
+    top:35%;
+    right: 10%;
+    left: 43%;
+    position: absolute;
+    color: #fff;
+    text-align: right;    ;
+    transition: height 0.7s ease-out;    
+}
+
+.secondarybannerText >p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+/* @media screen and (max-width: 992px) {
+    body {
+      background-color: pink;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+

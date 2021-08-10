@@ -1,0 +1,33 @@
+.banner {
+    position: relative;
+}
+
+.primaryBanner {
+    width: 100%;
+    
+    height: 700px;
+    object-fit: cover;
+}
+
+.bannerText {
+    width:80%;
+    
+    top:15%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+    text-align: center;    ;
+    transition: height 0.7s ease-out;    
+}
+
+.bannerText >p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.bannerText h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
